@@ -1,6 +1,6 @@
 apyori==1.1.2
-matplotlib==3.2.2
-numpy==1.23.0
-pandas==1.0.5
-seaborn==0.11.2
+matplotlib==3.7.1
+numpy==1.24.3
+pandas==1.5.3
+seaborn==0.11.1
 streamlit==1.21.0
