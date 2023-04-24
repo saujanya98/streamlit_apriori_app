@@ -40,7 +40,7 @@ with dataset:
     df["incident_count"] = 1 # Put 1 to Each Item For Making Countable Table, to be able to perform Group By
     df_table= df.groupby("items").sum().sort_values("incident_count", ascending=False).reset_index()
     #The 20 most demanded items in dataset eith barplot.
-    sns.set(rc={'axes.facecolor':'black', 'figure.facecolor':'black'})
+    sns.set(rc={'axes.facecolor':'black', 'figure.facecolor':'white'})
     fig = plt.figure(figsize=(10, 4))
     ax = fig.add_subplot(111)
     plt.xticks(rotation=90)
